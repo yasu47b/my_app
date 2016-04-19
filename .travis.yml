@@ -3,5 +3,5 @@ perl:
   - "5.22"
 install:
   - cpanm Carton && carton install
-script: "carton exce -- perl ./script/my_app test"
+script: "carton exec -- perl ./script/my_app test"
 
