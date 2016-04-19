@@ -1,6 +1,6 @@
 # My App
 
-this is experimentry repo
+this is experimentary repo
 
 # spec
 
