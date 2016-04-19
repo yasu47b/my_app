@@ -2,6 +2,6 @@ language: perl
 perl:
   - "5.22"
 install:
-  - cpanm Carton && cpanm --installdeps
+  - cpanm Carton && carton install
 script: "carton exec carton exce -- perl ./script/my_app test"
 
