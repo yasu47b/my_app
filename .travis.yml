@@ -1,0 +1,7 @@
+language: perl
+perl:
+  - "5.22"
+install:
+  - cpanm Carton && cpanm --installdeps --notest
+script: "perl ./script/my_app test"
+
